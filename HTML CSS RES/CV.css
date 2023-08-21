@@ -1,0 +1,147 @@
+.container{
+    margin:0% 5%; 
+    background-color:#f5f5f5;
+    padding: 10px 30px;
+}
+.heading {
+    /* padding:20px 30px; */
+    display: inline-block;
+    line-height: 12px;
+}
+.heading h1{
+    letter-spacing: 8px;
+}
+
+.heading h4 {
+    text-align: center;
+}
+
+.p1 {
+    /* border-radius: 2px solid; */
+    background-color:rgb(31, 31, 52);
+    color: white;
+    padding: 12px;
+    text-align: justify;
+    border-radius: 15px;
+    box-sizing: border-box;
+    /* margin: auto; */
+}
+.p2 { position: relative;
+    bottom: 10px;
+    background-color:rgb(59, 113, 116);
+    padding-right: 40px;
+    border-radius: 15px;
+    color: white;
+    display: flex;  
+    /* text-align: justify; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    /* margin: auto; */
+    line-height:  1.5; 
+    
+}
+.p2 ul{
+    list-style: none;
+    
+}
+.links ul{
+    list-style: none;
+    text-align: justify;
+   
+}
+.links ul a{
+    text-decoration: none;
+    color: white;
+}
+.p2 li i{
+    padding: 10px;
+}
+
+ h3{
+    /* padding-left: 30px; */
+    letter-spacing: 5px;
+    
+}
+.information{
+    padding: 0% 10px;
+    
+}
+.information i{
+    padding-right: 8px;
+}
+.information hr{
+    width: 60%;
+    height: 2px;
+    background-color:rgb(59, 113, 116) ;
+    float: left;
+}
+.year{
+    color:rgb(59, 113, 116) ;
+    font-weight: bold;
+}
+.information span{
+    color:rgb(59, 113, 116) ;
+    font-weight: bold;
+}
+.information2 hr{
+    padding-right: 300PX;
+    width: 5PX;
+    height: 2px;
+    background-color:rgb(59, 113, 116) ;
+    /* float: left; */
+}
+.information2{
+
+    background-color: rgb(232, 231, 231);
+    border-radius: 15px;
+    padding: 10px;
+}
+.maindiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.data p{
+    background-color:rgb(175, 174, 174);
+    padding: 15px;
+    border-radius: 10px;
+    width: 20%;
+    text-align: center;
+
+    
+}
+.data .php{
+    display: flex;
+    justify-content: space-between;
+}
+.java{
+    display: flex;
+    justify-content: space-between;
+}
+.mysql{
+    display: flex;
+    justify-content: space-between;
+}
+.organization p{
+    font-weight: bold;
+}
+.cartificate span{
+    color:rgb(59, 113, 116) ;
+    
+}
+
+@media (min-width:320px) and (max-width:425px){
+   .container{
+    margin:0% 0%; 
+    padding: 10px 30px;
+    
+   }
+  .heading{
+    line-height: normal;
+  }
+  .maindiv{
+    justify-content:center;
+  }
+ 
+}
